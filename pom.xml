@@ -117,7 +117,7 @@
             <dependency>
                 <groupId>io.mockk</groupId>
                 <artifactId>mockk</artifactId>
-                <version>{mockk.version}</version>
+                <version>${mockk.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
