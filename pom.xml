@@ -21,6 +21,7 @@
         <commons-collections4.version>4.2</commons-collections4.version>
         <logback.version>1.2.3</logback.version>
         <slf4j.version>1.7.25</slf4j.version>
+        <mockk.version>1.9.3</mockk.version>
     </properties>
 
     <dependencyManagement>
@@ -112,6 +113,11 @@
                 <groupId>io.vertx</groupId>
                 <artifactId>vertx-junit5</artifactId>
                 <version>${vertx.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.mockk</groupId>
+                <artifactId>mockk</artifactId>
+                <version>{mockk.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
