@@ -19,6 +19,7 @@
         <pcap4j.version>1.8.1</pcap4j.version>
         <micrometer.version>1.1.4</micrometer.version>
         <commons-collections4.version>4.3</commons-collections4.version>
+        <commons-net.version>3.6</commons-net.version>
         <logback.version>1.2.3</logback.version>
         <slf4j.version>1.7.26</slf4j.version>
         <mockk.version>1.9.3</mockk.version>
@@ -97,6 +98,11 @@
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-collections4</artifactId>
                 <version>${commons-collections4.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-net</groupId>
+                <artifactId>commons-net</artifactId>
+                <version>${commons-net.version}</version>
             </dependency>
 
             <!-- Logging -->
