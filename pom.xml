@@ -20,7 +20,7 @@
         <pcap4j.version>1.8.1</pcap4j.version>
         <micrometer.version>1.2.0</micrometer.version>
         <spring-boot.version>2.1.6.RELEASE</spring-boot.version>
-        <commons-collections4.version>4.3</commons-collections4.version>
+        <commons-collections4.version>4.4</commons-collections4.version>
         <commons-net.version>3.6</commons-net.version>
         <logback.version>1.2.3</logback.version>
         <slf4j.version>1.7.26</slf4j.version>
