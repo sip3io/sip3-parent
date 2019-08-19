@@ -17,7 +17,7 @@
         <vertx.version>3.8.0</vertx.version>
         <jain-sip.version>1.2.317</jain-sip.version>
         <isup.version>8.0.112</isup.version>
-        <pcap4j.version>1.8.1</pcap4j.version>
+        <pcap4j.version>1.8.2</pcap4j.version>
         <micrometer.version>1.2.0</micrometer.version>
         <spring-boot.version>2.1.7.RELEASE</spring-boot.version>
         <commons-collections4.version>4.4</commons-collections4.version>
