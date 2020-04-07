@@ -10,7 +10,7 @@ Before starting with `sip3-parent`, make sure you have installed:
 
 ## 2. Installation
 
-To install `sip3-parent` in your local Maven repository run the following command:
+To install `sip3-parent` to local Maven repository run the following command:
 ```
 mvn clean install
 ```
