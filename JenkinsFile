@@ -1,3 +1,8 @@
+#!/usr/bin/env groovy
+
+def releaseVersion
+def pom
+
 pipeline {
     agent any
 
@@ -33,7 +38,7 @@ pipeline {
                 sh 'mvn versions:set -DremoveSnapshot versions:commit'
 
                 // Save release version
-                def pom = readMavenPom file: 'pom.xml'
+                pom = readMavenPom file: 'pom.xml'
                 releaseVersion = pom.version
                 echo "Release version: ${releaseVersion}"
             }
