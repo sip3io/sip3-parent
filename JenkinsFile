@@ -1,0 +1,49 @@
+pipeline {
+    agent any
+
+    tools {
+        maven "maven-3.5.3"
+    }
+
+    stages {
+        stage('Init') {
+            steps {
+                configFileProvider([configFile(fileId: '75d7a907-05a7-49c4-8ca4-ecfc124b4afb', targetLocation: 'settings.xml')]) {
+                    sh 'mkdir -p ~/.m2 && cp $WORKSPACE/settings.xml -f ~/.m2/settings.xml'
+                }
+            }
+        }
+
+        stage('Checkout') {
+            checkout([
+                    $class: 'GitSCM',
+                    branches: [[name: 'feature/jenkinsfile']],
+                    doGenerateSubmoduleConfigurations: false,
+                    extensions: [],
+                    submoduleCfg: [],
+                    userRemoteConfigs: [[url: 'https://github.com/sip3io/sip3-parent.git']]
+            ])
+        }
+
+        stage('Prepare version') {
+            // Drop -SNAPSHOT qualifier
+            sh 'mvn versions:set -DremoveSnapshot versions:commit'
+
+            // Save release version
+            def pom = readMavenPom file: 'pom.xml'
+            releaseVersion = pom.version
+            echo "Release version: ${releaseVersion}"
+        }
+
+        stage('Release') {
+            // Add tag
+//            withCredentials([usernamePassword(credentialsId: 'c0813a88-f197-4261-89e4-d9a791b09096', passwordVariable: 'GIT_PASSWORD', usernameVariable: 'GIT_USERNAME')]) {
+//                sh "git tag ${releaseVersion}"
+//                sh('git push https://${GIT_USERNAME}:${GIT_PASSWORD}@github.com/sip3io/sip3-parent.git --tags')
+//            }
+
+            // Deploy to internal artifactory
+            sh 'mvn clean deploy:deploy -Pmaven-snapshot -DaltDeploymentRepository=archiva.internal::default::${ARTIFACTORY_URI}'
+        }
+    }
+}
