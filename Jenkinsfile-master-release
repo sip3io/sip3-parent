@@ -45,6 +45,12 @@ pipeline {
             }
         }
 
+        stage('Build') {
+            steps {
+                sh 'mvn clean package'
+            }
+        }
+
         stage('Branch') {
             steps {
                 withCredentials([string(credentialsId: '1ceac7f5-808a-456d-b758-2da186f29ac4', variable: 'GITHUB_TOKEN')]) {
@@ -65,7 +71,7 @@ pipeline {
                 }
 
                 // Deploy to internal artifactory
-                sh 'mvn clean deploy:deploy -DaltDeploymentRepository=archiva.internal::default::${ARTIFACTORY_URI}'
+                sh 'mvn clean install deploy:deploy -DaltDeploymentRepository=archiva.internal::default::${ARTIFACTORY_URI}'
             }
         }
     }
