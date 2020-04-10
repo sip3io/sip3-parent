@@ -71,7 +71,7 @@ pipeline {
                 }
 
                 // Deploy to internal artifactory
-                sh 'mvn clean install deploy:deploy -DaltDeploymentRepository=archiva.internal::default::${ARTIFACTORY_URI}'
+                sh 'mvn clean deploy:deploy -Dmaven.test.skip=true -DaltDeploymentRepository=archiva.internal::default::${ARTIFACTORY_URI}'
             }
         }
     }

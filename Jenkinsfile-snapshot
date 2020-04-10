@@ -30,7 +30,7 @@ pipeline {
 
         stage('Deploy') {
             steps {
-                sh "mvn clean install deploy:deploy -Dmaven.test.skip=true -DaltDeploymentRepository=archiva.snapshots::default::${ARTIFACTORY_URI}"
+                sh "mvn clean deploy:deploy -Dmaven.test.skip=true -DaltDeploymentRepository=archiva.snapshots::default::${ARTIFACTORY_URI}"
             }
         }
     }
