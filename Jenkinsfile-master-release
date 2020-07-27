@@ -71,7 +71,7 @@ pipeline {
                 }
 
                 // Deploy to internal artifactory
-                sh 'mvn clean deploy:deploy -Dmaven.test.skip=true -DaltDeploymentRepository=sip3-releases-ce::default::${SIP3_MAVEN_REPO_URI}'
+                sh 'mvn clean deploy:deploy -Dmaven.test.skip=true -DaltDeploymentRepository=sip3-releases-ce::default::${SIP3_MAVEN_REPO_URI}/releases-ce'
             }
         }
     }
