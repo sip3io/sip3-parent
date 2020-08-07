@@ -22,11 +22,12 @@
         <ch-smpp.version>6.0.0-netty4-beta-2</ch-smpp.version>
         <pcap4j.version>1.8.2</pcap4j.version>
         <micrometer.version>1.5.3</micrometer.version>
+        <ldaptive.version>2.0.0</ldaptive.version>
         <spring-boot.version>2.3.2.RELEASE</spring-boot.version>
         <reflections.version>0.9.12</reflections.version>
         <springfox-swagger2.version>3.0.0</springfox-swagger2.version>
         <commons-collections4.version>4.4</commons-collections4.version>
-        <commons-net.version>3.6</commons-net.version>
+        <commons-net.version>3.7</commons-net.version>
         <logback.version>1.2.3</logback.version>
         <logback-webhook.version>1.0.0</logback-webhook.version>
         <slf4j.version>1.7.30</slf4j.version>
@@ -198,6 +199,13 @@
                 <groupId>io.micrometer</groupId>
                 <artifactId>micrometer-registry-prometheus</artifactId>
                 <version>${micrometer.version}</version>
+            </dependency>
+
+            <!-- LDAP -->
+            <dependency>
+                <groupId>org.ldaptive</groupId>
+                <artifactId>ldaptive</artifactId>
+                <version>${ldaptive.version}</version>
             </dependency>
 
             <!-- Utils -->

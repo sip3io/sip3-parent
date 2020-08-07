@@ -16,7 +16,7 @@ mvn clean install
 ```
 ## 3. Documentation
 
-The entire SIP3 Documentation including `Getting Started Guide`, `Installation Guide`, `Features` and `Tutorials` can be fond [here](https://sip3.io/docs/docs/GettingStartedGuide.html).
+The entire SIP3 Documentation including `Getting Started Guide`, `Installation Guide`, `Features`, `Tutorials` and `Realease Notes` can be found [here](https://sip3.io/docs/GettingStartedGuide.html).
 
 ## 4. Support
 
