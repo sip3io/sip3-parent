@@ -89,6 +89,11 @@
                 <artifactId>vertx-config-yaml</artifactId>
                 <version>${vertx.version}</version>
             </dependency>
+            <dependency>
+                <groupId>io.vertx</groupId>
+                <artifactId>vertx-micrometer-metrics</artifactId>
+                <version>${vertx.version}</version>
+            </dependency>
 
             <!-- SIP -->
             <dependency>
