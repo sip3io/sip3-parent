@@ -21,7 +21,7 @@
         <media-sdp.version>7.0.16</media-sdp.version>
         <ch-smpp.version>6.0.0-netty4-beta-2</ch-smpp.version>
         <pcap4j.version>1.8.2</pcap4j.version>
-        <micrometer.version>1.5.5</micrometer.version>
+        <micrometer.version>1.5.6</micrometer.version>
         <ldaptive.version>2.0.0</ldaptive.version>
         <spring-boot.version>2.3.4.RELEASE</spring-boot.version>
         <reflections.version>0.9.12</reflections.version>
