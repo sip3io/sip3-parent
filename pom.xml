@@ -25,7 +25,7 @@
         <ldaptive.version>2.0.0</ldaptive.version>
         <spring-boot.version>2.3.4.RELEASE</spring-boot.version>
         <reflections.version>0.9.12</reflections.version>
-        <springfox-swagger2.version>3.0.0</springfox-swagger2.version>
+        <springfox.version>3.0.0</springfox.version>
         <commons-collections4.version>4.4</commons-collections4.version>
         <commons-net.version>3.7.2</commons-net.version>
         <logback.version>1.2.3</logback.version>
@@ -245,13 +245,8 @@
             <!-- Swagger -->
             <dependency>
                 <groupId>io.springfox</groupId>
-                <artifactId>springfox-swagger2</artifactId>
-                <version>${springfox-swagger2.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>io.springfox</groupId>
-                <artifactId>springfox-swagger-ui</artifactId>
-                <version>${springfox-swagger2.version}</version>
+                <artifactId>springfox-boot-starter</artifactId>
+                <version>${springfox.version}</version>
             </dependency>
 
             <!-- Logging -->
