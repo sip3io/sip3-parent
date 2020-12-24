@@ -15,7 +15,7 @@
         <kotlin.compiler.jvmTarget>1.8</kotlin.compiler.jvmTarget>
         <kotlin.version>1.4.10</kotlin.version>
         <kotlin-logging.version>1.12.0</kotlin-logging.version>
-        <vertx.version>3.9.4</vertx.version>
+        <vertx.version>4.0.0</vertx.version>
         <jain-sip.version>1.2.317</jain-sip.version>
         <isup.version>8.0.112</isup.version>
         <media-sdp.version>7.0.16</media-sdp.version>
