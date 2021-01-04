@@ -16,6 +16,7 @@
         <kotlin.version>1.4.10</kotlin.version>
         <kotlin-logging.version>1.12.0</kotlin-logging.version>
         <vertx.version>4.0.0</vertx.version>
+        <awssdk.version>2.15.57</awssdk.version>
         <jain-sip.version>1.2.317</jain-sip.version>
         <isup.version>8.0.112</isup.version>
         <media-sdp.version>7.0.16</media-sdp.version>
@@ -95,6 +96,13 @@
                 <groupId>io.vertx</groupId>
                 <artifactId>vertx-micrometer-metrics</artifactId>
                 <version>${vertx.version}</version>
+            </dependency>
+
+            <!-- AWS -->
+            <dependency>
+                <groupId>software.amazon.awssdk</groupId>
+                <artifactId>s3</artifactId>
+                <version>${awssdk.version}</version>
             </dependency>
 
             <!-- SIP -->
