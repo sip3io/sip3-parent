@@ -16,6 +16,7 @@
         <kotlin.version>1.4.10</kotlin.version>
         <kotlin-logging.version>1.12.0</kotlin-logging.version>
         <vertx.version>4.0.0</vertx.version>
+        <vertx-js.version>4.0.0-milestone4</vertx-js.version>
         <awssdk.version>2.15.57</awssdk.version>
         <jain-sip.version>1.2.317</jain-sip.version>
         <isup.version>8.0.112</isup.version>
@@ -75,7 +76,7 @@
             <dependency>
                 <groupId>io.vertx</groupId>
                 <artifactId>vertx-lang-js</artifactId>
-                <version>${vertx.version}</version>
+                <version>${vertx-js.version}</version>
             </dependency>
             <dependency>
                 <groupId>io.vertx</groupId>
