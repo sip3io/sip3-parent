@@ -31,7 +31,7 @@
         <commons-collections4.version>4.4</commons-collections4.version>
         <commons-net.version>3.8.0</commons-net.version>
         <logback.version>1.2.3</logback.version>
-        <logback-webhook.version>1.0.1</logback-webhook.version>
+        <logback-webhook.version>1.0.2</logback-webhook.version>
         <slf4j.version>1.7.30</slf4j.version>
         <mockk.version>1.10.4</mockk.version>
         <sipunit.version>2.0.5</sipunit.version>
@@ -47,11 +47,23 @@
                 <groupId>io.vertx</groupId>
                 <artifactId>vertx-lang-kotlin</artifactId>
                 <version>${vertx.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.jetbrains.kotlin</groupId>
+                        <artifactId>kotlin-stdlib-jdk8</artifactId>
+                    </exclusion>
+                </exclusions>
             </dependency>
             <dependency>
                 <groupId>io.vertx</groupId>
                 <artifactId>vertx-lang-kotlin-compiler</artifactId>
                 <version>${vertx.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.jetbrains.kotlin</groupId>
+                        <artifactId>kotlin-stdlib-jdk8</artifactId>
+                    </exclusion>
+                </exclusions>
             </dependency>
             <dependency>
                 <groupId>io.vertx</groupId>
