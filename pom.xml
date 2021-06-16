@@ -11,11 +11,11 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <java.version>1.8</java.version>
-        <kotlin.compiler.jvmTarget>1.8</kotlin.compiler.jvmTarget>
-        <kotlin.version>1.4.31</kotlin.version>
+        <java.version>11</java.version>
+        <kotlin.compiler.jvmTarget>11</kotlin.compiler.jvmTarget>
+        <kotlin.version>1.5.10</kotlin.version>
         <kotlin-logging.version>2.0.8</kotlin-logging.version>
-        <vertx.version>4.0.3</vertx.version>
+        <vertx.version>4.1.0</vertx.version>
         <vertx-js.version>4.0.0-milestone4</vertx-js.version>
         <awssdk.version>2.15.61</awssdk.version>
         <jain-sip.version>1.2.317</jain-sip.version>
@@ -33,15 +33,22 @@
         <logback.version>1.2.3</logback.version>
         <logback-webhook.version>1.0.2</logback-webhook.version>
         <slf4j.version>1.7.30</slf4j.version>
-        <mockk.version>1.10.4</mockk.version>
+        <mockk.version>1.11.0</mockk.version>
         <sipunit.version>2.0.5</sipunit.version>
         <embed-mongo.version>3.0.0</embed-mongo.version>
         <maven-surefire-plugin.version>2.22.2</maven-surefire-plugin.version>
-        <vertx-maven-plugin.version>1.0.23</vertx-maven-plugin.version>
+        <vertx-maven-plugin.version>1.0.24</vertx-maven-plugin.version>
     </properties>
 
     <dependencyManagement>
         <dependencies>
+            <!-- Kotlin -->
+            <dependency>
+                <groupId>org.jetbrains.kotlin</groupId>
+                <artifactId>kotlin-reflect</artifactId>
+                <version>${kotlin.version}</version>
+            </dependency>
+
             <!-- Vert.x -->
             <dependency>
                 <groupId>io.vertx</groupId>
@@ -275,6 +282,16 @@
                 <groupId>io.github.microutils</groupId>
                 <artifactId>kotlin-logging-jvm</artifactId>
                 <version>${kotlin-logging.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.jetbrains.kotlin</groupId>
+                        <artifactId>kotlin-stdlib</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>org.jetbrains.kotlin</groupId>
+                        <artifactId>kotlin-stdlib-common</artifactId>
+                    </exclusion>
+                </exclusions>
             </dependency>
             <dependency>
                 <groupId>ch.qos.logback</groupId>
@@ -302,6 +319,16 @@
                 <groupId>io.mockk</groupId>
                 <artifactId>mockk</artifactId>
                 <version>${mockk.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.jetbrains.kotlin</groupId>
+                        <artifactId>kotlin-stdlib</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>org.jetbrains.kotlin</groupId>
+                        <artifactId>kotlin-stdlib-common</artifactId>
+                    </exclusion>
+                </exclusions>
             </dependency>
             <dependency>
                 <groupId>org.mobicents.sipunit</groupId>
