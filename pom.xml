@@ -361,7 +361,6 @@
                 <artifactId>jna</artifactId>
                 <version>${jna.version}</version>
             </dependency>
-
         </dependencies>
     </dependencyManagement>
 </project>
