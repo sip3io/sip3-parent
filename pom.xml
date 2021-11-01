@@ -35,8 +35,7 @@
         <slf4j.version>1.7.32</slf4j.version>
         <mockk.version>1.12.0</mockk.version>
         <sipunit.version>2.0.5</sipunit.version>
-        <embed-mongo.version>3.0.0</embed-mongo.version>
-        <testcontainers.version>1.16.1</testcontainers.version>
+        <testcontainers.version>1.16.2</testcontainers.version>
         <jna.version>5.9.0</jna.version>
         <maven-surefire-plugin.version>2.22.2</maven-surefire-plugin.version>
         <vertx-maven-plugin.version>1.0.24</vertx-maven-plugin.version>
@@ -341,11 +340,6 @@
                 <groupId>org.mobicents.sipunit</groupId>
                 <artifactId>sipunit</artifactId>
                 <version>${sipunit.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>de.flapdoodle.embed</groupId>
-                <artifactId>de.flapdoodle.embed.mongo</artifactId>
-                <version>${embed-mongo.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.testcontainers</groupId>
