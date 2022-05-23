@@ -14,7 +14,7 @@
         <java.version>11</java.version>
         <kotlin.compiler.jvmTarget>11</kotlin.compiler.jvmTarget>
         <kotlin.version>1.5.31</kotlin.version>
-        <kotlin-logging.version>2.1.21</kotlin-logging.version>
+        <kotlin-logging.version>2.1.23</kotlin-logging.version>
         <vertx.version>4.3.0</vertx.version>
         <vertx-js.version>4.0.0-milestone4</vertx-js.version>
         <awssdk.version>2.17.113</awssdk.version>
