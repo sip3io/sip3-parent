@@ -16,7 +16,6 @@
         <kotlin.version>1.5.31</kotlin.version>
         <kotlin-logging.version>2.1.23</kotlin-logging.version>
         <vertx.version>4.3.3</vertx.version>
-        <vertx-js.version>4.0.0-milestone4</vertx-js.version>
         <awssdk.version>2.17.225</awssdk.version>
         <jain-sip.version>1.2.317</jain-sip.version>
         <isup.version>8.0.112</isup.version>
@@ -91,16 +90,6 @@
             <dependency>
                 <groupId>io.vertx</groupId>
                 <artifactId>vertx-lang-groovy</artifactId>
-                <version>${vertx.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>io.vertx</groupId>
-                <artifactId>vertx-lang-js</artifactId>
-                <version>${vertx-js.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>io.vertx</groupId>
-                <artifactId>vertx-lang-ruby</artifactId>
                 <version>${vertx.version}</version>
             </dependency>
             <dependency>
