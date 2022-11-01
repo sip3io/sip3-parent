@@ -24,7 +24,7 @@
         <pcap4j.version>1.8.2</pcap4j.version>
         <micrometer.version>1.9.5</micrometer.version>
         <ldaptive.version>2.1.1</ldaptive.version>
-        <spring-boot.version>2.7.4</spring-boot.version>
+        <spring-boot.version>2.7.5</spring-boot.version>
         <reflections.version>0.10.2</reflections.version>
         <springfox.version>3.0.0</springfox.version>
         <commons-collections4.version>4.4</commons-collections4.version>
