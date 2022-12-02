@@ -28,7 +28,7 @@
         <reflections.version>0.10.2</reflections.version>
         <springfox.version>3.0.0</springfox.version>
         <commons-collections4.version>4.4</commons-collections4.version>
-        <commons-net.version>3.8.0</commons-net.version>
+        <commons-net.version>3.9.0</commons-net.version>
         <logback.version>1.2.6</logback.version>
         <logback-webhook.version>1.0.4</logback-webhook.version>
         <slf4j.version>1.7.36</slf4j.version>
