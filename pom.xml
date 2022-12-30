@@ -27,6 +27,7 @@
         <spring-boot.version>2.7.5</spring-boot.version>
         <reflections.version>0.10.2</reflections.version>
         <springdoc-openapi.version>1.6.14</springdoc-openapi.version>
+        <swagger.version>2.2.7</swagger.version>
         <commons-collections4.version>4.4</commons-collections4.version>
         <commons-net.version>3.9.0</commons-net.version>
         <logback.version>1.2.6</logback.version>
@@ -266,6 +267,11 @@
                 <groupId>org.springdoc</groupId>
                 <artifactId>springdoc-openapi-ui</artifactId>
                 <version>${springdoc-openapi.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.swagger.core.v3</groupId>
+                <artifactId>swagger-annotations</artifactId>
+                <version>${swagger.version}</version>
             </dependency>
 
             <!-- Logging -->
