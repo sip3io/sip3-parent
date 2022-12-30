@@ -26,7 +26,7 @@
         <ldaptive.version>2.1.1</ldaptive.version>
         <spring-boot.version>2.7.5</spring-boot.version>
         <reflections.version>0.10.2</reflections.version>
-        <springfox.version>3.0.0</springfox.version>
+        <springdoc-openapi.version>1.6.14</springdoc-openapi.version>
         <commons-collections4.version>4.4</commons-collections4.version>
         <commons-net.version>3.9.0</commons-net.version>
         <logback.version>1.2.6</logback.version>
@@ -246,11 +246,6 @@
 
             <!-- Utils -->
             <dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-devtools</artifactId>
-                <version>${spring-boot.version}</version>
-            </dependency>
-            <dependency>
                 <groupId>org.reflections</groupId>
                 <artifactId>reflections</artifactId>
                 <version>${reflections.version}</version>
@@ -268,9 +263,9 @@
 
             <!-- Swagger -->
             <dependency>
-                <groupId>io.springfox</groupId>
-                <artifactId>springfox-boot-starter</artifactId>
-                <version>${springfox.version}</version>
+                <groupId>org.springdoc</groupId>
+                <artifactId>springdoc-openapi-ui</artifactId>
+                <version>${springdoc-openapi.version}</version>
             </dependency>
 
             <!-- Logging -->
