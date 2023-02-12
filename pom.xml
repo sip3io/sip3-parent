@@ -18,7 +18,6 @@
         <vertx.version>4.3.7</vertx.version>
         <awssdk.version>2.17.225</awssdk.version>
         <jain-sip.version>1.2.317</jain-sip.version>
-        <isup.version>8.0.112</isup.version>
         <media-sdp.version>7.0.16</media-sdp.version>
         <ch-smpp.version>6.0.0-netty4-beta-2</ch-smpp.version>
         <pcap4j.version>1.8.2</pcap4j.version>
@@ -127,18 +126,6 @@
                 <groupId>javax.sip</groupId>
                 <artifactId>jain-sip-ri</artifactId>
                 <version>${jain-sip.version}</version>
-            </dependency>
-
-            <!-- ISUP -->
-            <dependency>
-                <groupId>org.mobicents.protocols.ss7.isup</groupId>
-                <artifactId>isup-api</artifactId>
-                <version>${isup.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.mobicents.protocols.ss7.isup</groupId>
-                <artifactId>isup-impl</artifactId>
-                <version>${isup.version}</version>
             </dependency>
 
             <!-- SDP -->
