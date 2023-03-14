@@ -13,24 +13,25 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>11</java.version>
         <kotlin.compiler.jvmTarget>11</kotlin.compiler.jvmTarget>
-        <kotlin.version>1.5.31</kotlin.version>
-        <kotlin-logging.version>3.0.0</kotlin-logging.version>
-        <vertx.version>4.3.7</vertx.version>
-        <awssdk.version>2.17.225</awssdk.version>
+        <kotlin.version>1.7.21</kotlin.version>
+        <kotlin-logging.version>3.0.5</kotlin-logging.version>
+        <vertx.version>4.4.0</vertx.version>
+        <awssdk.version>2.20.22</awssdk.version>
         <jain-sip.version>1.2.317</jain-sip.version>
         <media-sdp.version>7.0.16</media-sdp.version>
         <ch-smpp.version>6.0.0-netty4-beta-2</ch-smpp.version>
         <pcap4j.version>1.8.2</pcap4j.version>
-        <micrometer.version>1.9.5</micrometer.version>
+        <micrometer.version>1.10.4</micrometer.version>
         <ldaptive.version>2.1.1</ldaptive.version>
         <spring-boot.version>2.7.5</spring-boot.version>
         <reflections.version>0.10.2</reflections.version>
         <springdoc-openapi.version>1.6.14</springdoc-openapi.version>
         <swagger.version>2.2.7</swagger.version>
+        <jackson.version>2.14.0</jackson.version>
         <commons-collections4.version>4.4</commons-collections4.version>
         <commons-net.version>3.9.0</commons-net.version>
         <logback.version>1.2.6</logback.version>
-        <logback-webhook.version>1.0.4</logback-webhook.version>
+        <logback-webhook.version>1.0.5</logback-webhook.version>
         <slf4j.version>1.7.36</slf4j.version>
         <mockk.version>1.12.4</mockk.version>
         <sipunit.version>2.0.5</sipunit.version>
@@ -242,6 +243,16 @@
                 <groupId>org.reflections</groupId>
                 <artifactId>reflections</artifactId>
                 <version>${reflections.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-annotations</artifactId>
+                <version>${jackson.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-databind</artifactId>
+                <version>${jackson.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.commons</groupId>
