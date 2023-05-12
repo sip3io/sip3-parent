@@ -15,19 +15,19 @@
         <kotlin.compiler.jvmTarget>11</kotlin.compiler.jvmTarget>
         <kotlin.version>1.7.21</kotlin.version>
         <kotlin-logging.version>3.0.5</kotlin-logging.version>
-        <vertx.version>4.4.1</vertx.version>
+        <vertx.version>4.4.2</vertx.version>
         <awssdk.version>2.20.22</awssdk.version>
         <jain-sip.version>1.2.317</jain-sip.version>
         <media-sdp.version>7.0.16</media-sdp.version>
         <ch-smpp.version>6.0.0-netty4-beta-2</ch-smpp.version>
         <pcap4j.version>1.8.2</pcap4j.version>
-        <micrometer.version>1.10.5</micrometer.version>
+        <micrometer.version>1.10.7</micrometer.version>
         <ldaptive.version>2.1.2</ldaptive.version>
         <spring-boot.version>2.7.10</spring-boot.version>
         <reflections.version>0.10.2</reflections.version>
         <springdoc-openapi.version>1.7.0</springdoc-openapi.version>
         <swagger.version>2.2.8</swagger.version>
-        <jackson.version>2.14.0</jackson.version>
+        <jackson.version>2.15.0</jackson.version>
         <commons-collections4.version>4.4</commons-collections4.version>
         <commons-net.version>3.9.0</commons-net.version>
         <logback.version>1.2.6</logback.version>
