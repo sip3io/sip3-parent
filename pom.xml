@@ -16,7 +16,7 @@
         <kotlin.version>1.7.21</kotlin.version>
         <kotlin-logging.version>3.0.5</kotlin-logging.version>
         <vertx.version>4.4.2</vertx.version>
-        <awssdk.version>2.20.22</awssdk.version>
+        <awssdk.version>2.20.65</awssdk.version>
         <jain-sip.version>1.2.317</jain-sip.version>
         <media-sdp.version>7.0.16</media-sdp.version>
         <ch-smpp.version>6.0.0-netty4-beta-2</ch-smpp.version>
