@@ -13,7 +13,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>17</java.version>
         <kotlin.compiler.jvmTarget>17</kotlin.compiler.jvmTarget>
-        <kotlin.version>1.7.21</kotlin.version>
+        <kotlin.version>1.9.22</kotlin.version>
         <kotlin-logging.version>3.0.5</kotlin-logging.version>
         <vertx.version>4.5.1</vertx.version>
         <awssdk.version>2.20.65</awssdk.version>
