@@ -37,7 +37,7 @@
         <mockk.version>1.13.8</mockk.version>
         <sipunit.version>2.0.5</sipunit.version>
         <testcontainers.version>1.19.1</testcontainers.version>
-        <jna.version>5.13.0</jna.version>
+        <jna.version>5.14.0</jna.version>
         <maven-surefire-plugin.version>3.1.2</maven-surefire-plugin.version>
         <vertx-maven-plugin.version>1.0.28</vertx-maven-plugin.version>
         <maven-jarsigner-plugin.version>3.0.0</maven-jarsigner-plugin.version>
