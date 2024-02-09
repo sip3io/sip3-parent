@@ -22,7 +22,7 @@
         <ch-smpp.version>6.0.0-netty4-beta-2</ch-smpp.version>
         <pcap4j.version>1.8.2</pcap4j.version>
         <micrometer.version>1.11.5</micrometer.version>
-        <ldaptive.version>2.2.0</ldaptive.version>
+        <ldaptive.version>2.3.0</ldaptive.version>
         <spring-boot.version>3.1.4</spring-boot.version>
         <reflections.version>0.10.2</reflections.version>
         <springdoc-openapi.version>2.2.0</springdoc-openapi.version>
