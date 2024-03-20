@@ -26,7 +26,7 @@
         <spring-boot.version>3.1.8</spring-boot.version>
         <reflections.version>0.10.2</reflections.version>
         <springdoc-openapi.version>2.2.0</springdoc-openapi.version>
-        <swagger.version>2.2.16</swagger.version>
+        <swagger.version>2.2.21</swagger.version>
         <jackson.version>2.16.1</jackson.version>
         <jaxb.version>2.3.1</jaxb.version>
         <commons-collections4.version>4.4</commons-collections4.version>
