@@ -33,7 +33,7 @@
         <commons-net.version>3.10.0</commons-net.version>
         <logback.version>1.4.14</logback.version>
         <logback-webhook.version>1.0.6</logback-webhook.version>
-        <slf4j.version>2.0.12</slf4j.version>
+        <slf4j.version>2.0.13</slf4j.version>
         <mockk.version>1.13.9</mockk.version>
         <sipunit.version>2.0.5</sipunit.version>
         <testcontainers.version>1.19.5</testcontainers.version>
