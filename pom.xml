@@ -27,7 +27,7 @@
         <reflections.version>0.10.2</reflections.version>
         <springdoc-openapi.version>2.2.0</springdoc-openapi.version>
         <swagger.version>2.2.16</swagger.version>
-        <jackson.version>2.16.1</jackson.version>
+        <jackson.version>2.17.1</jackson.version>
         <jaxb.version>2.3.2</jaxb.version>
         <commons-collections4.version>4.4</commons-collections4.version>
         <commons-net.version>3.10.0</commons-net.version>
