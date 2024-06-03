@@ -22,6 +22,7 @@
         <ch-smpp.version>6.0.0-netty4-beta-2</ch-smpp.version>
         <pcap4j.version>1.8.2</pcap4j.version>
         <micrometer.version>1.12.4</micrometer.version>
+        <new-relic.version>0.10.0</new-relic.version>
         <ldaptive.version>2.3.0</ldaptive.version>
         <spring-boot.version>3.1.8</spring-boot.version>
         <reflections.version>0.10.2</reflections.version>
@@ -223,13 +224,13 @@
             </dependency>
             <dependency>
                 <groupId>io.micrometer</groupId>
-                <artifactId>micrometer-registry-new-relic</artifactId>
+                <artifactId>micrometer-registry-cloudwatch2</artifactId>
                 <version>${micrometer.version}</version>
             </dependency>
             <dependency>
-                <groupId>io.micrometer</groupId>
-                <artifactId>micrometer-registry-cloudwatch2</artifactId>
-                <version>${micrometer.version}</version>
+                <groupId>com.newrelic.telemetry</groupId>
+                <artifactId>micrometer-registry-new-relic</artifactId>
+                <version>${new-relic.version}</version>
             </dependency>
 
             <!-- LDAP -->
