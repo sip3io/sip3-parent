@@ -15,7 +15,7 @@
         <kotlin.compiler.jvmTarget>17</kotlin.compiler.jvmTarget>
         <kotlin.version>1.7.21</kotlin.version>
         <kotlin-logging.version>3.0.5</kotlin-logging.version>
-        <vertx.version>4.5.7</vertx.version>
+        <vertx.version>4.5.8</vertx.version>
         <awssdk.version>2.20.65</awssdk.version>
         <jain-sip.version>1.2.317</jain-sip.version>
         <media-sdp.version>7.0.16</media-sdp.version>
@@ -29,7 +29,8 @@
         <springdoc-openapi.version>2.2.0</springdoc-openapi.version>
         <swagger.version>2.2.16</swagger.version>
         <jackson.version>2.16.1</jackson.version>
-        <jaxb.version>2.3.2</jaxb.version>
+        <bind-api.version>4.0.2</bind-api.version>
+        <jaxb-impl.version>4.0.5</jaxb-impl.version>
         <commons-collections4.version>4.4</commons-collections4.version>
         <commons-net.version>3.10.0</commons-net.version>
         <logback.version>1.4.14</logback.version>
@@ -266,10 +267,17 @@
                 <artifactId>commons-net</artifactId>
                 <version>${commons-net.version}</version>
             </dependency>
+
+            <!-- java.xml.bind module -->
             <dependency>
                 <groupId>jakarta.xml.bind</groupId>
                 <artifactId>jakarta.xml.bind-api</artifactId>
-                <version>${jaxb.version}</version>
+                <version>${bind-api.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.sun.xml.bind</groupId>
+                <artifactId>jaxb-impl</artifactId>
+                <version>${jaxb-impl.version}</version>
             </dependency>
 
             <!-- Swagger -->
