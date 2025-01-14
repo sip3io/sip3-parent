@@ -18,7 +18,7 @@
         <vertx.version>4.5.10</vertx.version>
         <awssdk.version>2.20.65</awssdk.version>
         <jain-sip.version>1.2.317</jain-sip.version>
-        <media-sdp.version>7.0.16</media-sdp.version>
+        <media-sdp.version>8.0.0-21</media-sdp.version>
         <ch-smpp.version>6.0.0-netty4-beta-2</ch-smpp.version>
         <pcap4j.version>1.8.2</pcap4j.version>
         <micrometer.version>1.12.4</micrometer.version>
@@ -43,6 +43,7 @@
         <maven-surefire-plugin.version>3.2.5</maven-surefire-plugin.version>
         <vertx-maven-plugin.version>1.0.28</vertx-maven-plugin.version>
         <maven-jarsigner-plugin.version>3.0.0</maven-jarsigner-plugin.version>
+        <git-maven-plugin.version>9.0.0</git-maven-plugin.version>
     </properties>
 
     <dependencyManagement>
@@ -134,7 +135,7 @@
 
             <!-- SDP -->
             <dependency>
-                <groupId>org.restcomm.media</groupId>
+                <groupId>org.restcomm.media.core</groupId>
                 <artifactId>sdp</artifactId>
                 <version>${media-sdp.version}</version>
                 <exclusions>
