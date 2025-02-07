@@ -29,7 +29,7 @@
         <springdoc-openapi.version>2.2.0</springdoc-openapi.version>
         <swagger.version>2.2.16</swagger.version>
         <jackson.version>2.16.1</jackson.version>
-        <bind-api.version>4.0.2</bind-api.version>
+        <bind-api.version>2.3.1</bind-api.version>
         <jaxb-impl.version>4.0.5</jaxb-impl.version>
         <commons-collections4.version>4.4</commons-collections4.version>
         <commons-net.version>3.10.0</commons-net.version>
@@ -271,8 +271,8 @@
 
             <!-- java.xml.bind module -->
             <dependency>
-                <groupId>jakarta.xml.bind</groupId>
-                <artifactId>jakarta.xml.bind-api</artifactId>
+                <groupId>javax.xml.bind</groupId>
+                <artifactId>jaxb-api</artifactId>
                 <version>${bind-api.version}</version>
             </dependency>
             <dependency>
