@@ -16,13 +16,13 @@
         <kotlin.version>2.0.0</kotlin.version>
         <kotlin.coroutines.version>1.8.1</kotlin.coroutines.version>
         <kotlin-logging.version>7.0.13</kotlin-logging.version>
-        <vertx.version>5.0.7</vertx.version>
+        <vertx.version>5.0.8</vertx.version>
         <awssdk.version>2.40.15</awssdk.version>
         <jain-sip.version>1.2.317</jain-sip.version>
         <media-sdp.version>8.0.0-21</media-sdp.version>
         <ch-smpp.version>6.0.0-netty4-beta-2</ch-smpp.version>
         <pcap4j.version>1.8.2</pcap4j.version>
-        <micrometer.version>1.15.7</micrometer.version>
+        <micrometer.version>1.15.9</micrometer.version>
         <new-relic.version>0.10.0</new-relic.version>
         <ldaptive.version>2.4.2</ldaptive.version>
         <spring-boot.version>3.5.9</spring-boot.version>
