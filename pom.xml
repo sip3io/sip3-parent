@@ -124,6 +124,11 @@
                 <artifactId>vertx-launcher-application</artifactId>
                 <version>${vertx.version}</version>
             </dependency>
+            <dependency>
+                <groupId>io.vertx</groupId>
+                <artifactId>vertx-launcher-legacy-cli</artifactId>
+                <version>${vertx.version}</version>
+            </dependency>
 
             <!-- AWS -->
             <dependency>
