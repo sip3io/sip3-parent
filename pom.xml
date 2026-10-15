@@ -17,6 +17,7 @@
         <kotlin.coroutines.version>1.8.1</kotlin.coroutines.version>
         <kotlin-logging.version>7.0.13</kotlin-logging.version>
         <vertx.version>5.0.12</vertx.version>
+        <netty.version>4.2.13.Final</netty.version>
         <awssdk.version>2.44.0</awssdk.version>
         <jain-sip.version>1.2.317</jain-sip.version>
         <media-sdp.version>8.0.0-21</media-sdp.version>
@@ -128,6 +129,14 @@
                 <groupId>io.vertx</groupId>
                 <artifactId>vertx-launcher-legacy-cli</artifactId>
                 <version>${vertx.version}</version>
+            </dependency>
+
+            <!-- Netty -->
+            <dependency>
+                <groupId>io.netty</groupId>
+                <artifactId>netty-transport-native-epoll</artifactId>
+                <classifier>linux-x86_64</classifier>
+                <version>${netty.version}</version>
             </dependency>
 
             <!-- AWS -->
